@@ -1,0 +1,62 @@
+
+1)კომენტარების სახით დაწერეთ რა განსხვავებაა id  / class და ელემენტის სელექტორს შორის და რომელია უფრო პრიორიტეტული 
+
+2)კომენტარის სახით ახსენით რა არის descendant selector და რა არის children inheritance
+
+3)კომენტარის სახით ახსენით როგორ გავიოგთ რომელია parent და რომელი child ლემენტი
+
+4)შექმენით 2 ცალი H1  ერთს მიანიჭეთ id მეორეს class და external css-ის გამოყენებით გასტილეთ განსხვავებულად
+
+5)შექმენით ოთხი ღილაკი, კლასების საშუალებით გასტილეთ მსგავსად 2 ღილაკი, ხოლო დანარჩენი 2 განსხვავებულად
+
+6)შექმენით div სადაც გექნებათ 10 ცალი პარაგრაფის თეგი შემდეგ კი ყველა P Tag-ს შეუცვალეთ ფერი და გახადეთ წითელი
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./Style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- id გამოიყენება ერტი კონკრეტულასთვის  -->
+    <!-- <. class გამოიყენება ბევრი ელემენტისთვის ანუ სხვაზეც შეგვიძლაი გამოიყენოთ -->
+    <!-- descendent selector არის აი მაგალითად div1 ში რომ არის u ტეგი და გვინდა მა კონკერტულის გაფერადება ამ თეგიდან  -->
+    <!-- children interance არის აი მაგალითად p თეგში რო მდებარეობს u თეგი და გასტილვისას პირდაპირ ეს u ტეგი გაისტილება -->
+    <!-- parent არის  მშობელი ანუ მაგალითად p b.. childe არის p b ან სხვა თეგში მდებარე ცვლადი -->
+    <h1 id="h11">Goa</h1>
+    <h1 class="h12">Goa</h1>
+    
+    <button class="button1">#</button>
+    <button class="button1">#</button>
+    <button class="button2">#</button>
+    <button class="button2">#</button>
+ 
+    <div style="color: red;">
+        <p>Goa</p>
+        <p>Goa</p>
+        <p>Goa</p>
+        <p>Goa</p>
+        <p>Goa</p>
+        <p>Goa</p>
+        <p>Goa</p>
+        <p>Goa</p>
+        <p>Goa</p>
+        <p>Goa</p>
+    </div>
+    
+
+
+
+</body>
+</html>
